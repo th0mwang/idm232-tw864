@@ -52,29 +52,28 @@ ul{
 
 }
 button{
-  background-color:#452b00; 
+  background-color: #452b00;
   color: white;
-  padding: 15px 32px;
+  padding: 2.5vh;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   transition: all 0.2s;
-  border: #452b00;
+  border: 2px solid transparent; /* Set a transparent border by default */
   font-family: 'Merriweather', serif;
 
   
 }
 button:hover{
-  background-color:transparent;
-  border:2px solid #452b00;
+  background-color: transparent;
+  border: 2px solid #452b00; /* Change border color on hover */
   color: white;
-  padding: 15px 32px;
+  padding: 2.5vh;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
 }
 
