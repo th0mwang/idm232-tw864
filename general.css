@@ -75,9 +75,19 @@ button:hover{
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+    font-family: 'Merriweather', serif;
+
 }
 
 hr{
   border: 1px solid #452b00;
 }
 
+p1{
+    color: white;
+  font-family: 'Merriweather', serif;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
