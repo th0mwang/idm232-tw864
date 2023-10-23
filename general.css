@@ -1,5 +1,5 @@
 header{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),url(images/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)10%, rgba(0, 0, 0, 0)85%),url(images/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg);
   background-position: center;
   background-size: cover;
   padding: 0;
@@ -41,7 +41,10 @@ h1{
   color: white;
   text-align: center;
   font-family: 'Merriweather', serif;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
+
 
 ul{
   list-style: none;
@@ -73,9 +76,23 @@ button:hover{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16px;  
   cursor: pointer;
     font-family: 'Merriweather', serif;
+
+}
+
+.grid-item{
+  border: 0.5vh solid transparent;
+  transition: all 0.2s;
+  margin: 0;
+  padding-bottom: 0%;
+}
+
+.grid-item:hover{
+ border: 0.5vh solid white;
+ margin: 0;
+ padding-bottom: 0%;
 
 }
 
@@ -85,9 +102,49 @@ hr{
 
 p1{
     color: white;
-  font-family: 'Merriweather', serif;
+   font-family: 'Merriweather', serif;
     text-align: center;
+
+}
+
+p2{
+  color: white;
+  font-family: 'Merriweather', serif;
+   text-align: center;
+   font-size: 3vh;
+   padding-top: 0%;
+   margin-top: 0%;
+}
+
+.header{
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+}
+
+.submit{
+  background-color: #452b00;
+  color: white;
+  padding: 1vh;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 2vh;
+  transition: all 0.2s;
+  border: 2px solid transparent; /* Set a transparent border by default */
+  font-family: 'Merriweather', serif;
+}
+
+.submit:hover{
+  background-color: transparent;
+  border: 2px solid #452b00; /* Change border color on hover */
+  color: white;
+  padding: 1vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  cursor: pointer;
+    font-family: 'Merriweather', serif;
 
 }
